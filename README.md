@@ -1,7 +1,7 @@
 # Module 20. Code writing principles & general approaches
 
 ### DRY:
-- В проекте исправлен CSS файл, удалены дублирующиеся стили. 
+- В [проекте](https://github.com/ShimlykhDiana/Module_20/blob/https/github.com/ShimlykhDiana/task-6.8/main.html) исправлен CSS файл, удалены дублирующиеся стили. 
 
 ### KISS:
 - Проект (ссылка), код читается намного проще, если категоризировать его составляющие классами, применив стили к ним. 
