@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    background: url(../images/evgen-bryl-5WPEDMgmQiw-unsplash.jpg) ;
+    background-size: cover ;
+    
+}
+h1 {
+    color: rgba(228, 219, 211, 0.866);
+    font-size: 4rem;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.news {
+    background: rgba(198, 194, 194, 0.899);
+    padding: 50px 0 32px;
+}
+
+.new:before {
+    content: 'NEW';
+    color: rgba(199, 214, 203, 0.99);
+    background-color: rgba(24, 64, 46, 0.714);
+    font-size: 30px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+   
+    border-radius: 50px 5px 50px;
+    border-style:double;
+    border-width: 10px;
+ 
+}
+.article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+.article:nth-child(even) {
+    background: rgba(14, 49, 14, 0.317);
+}
+.article a {
+    color: rgb(31, 52, 52);
+    text-decoration:none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.article a:hover {
+    color: indianred;
+}
+
+h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+
+}
+
+.article-meta {
+    color: rgb(56, 91, 92);
+    margin-bottom: 5px;
+}
+
+.img {
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+    
+}
+/* a:hover {
+    cursor: url(../images/premium-icon-cat-4275962\ \(1\).png), pointer;
+} */
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+    background: url(../images/evgen-bryl-5WPEDMgmQiw-unsplash.jpg);
+}
+footer.links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: rgb(54, 130, 132);
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    
+
+}
+footer a:hover{
+    background: rgb(13, 59, 37);
+}
+.copyright {
+    color: darkgrey;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
