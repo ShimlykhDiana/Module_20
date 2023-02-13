@@ -51,9 +51,13 @@ h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.article a:hover {
+/* .article a:hover {
     color: indianred;
-}
+} */
+
+/* a:hover {
+    cursor: url(../images/premium-icon-cat-4275962\ \(1\).png), pointer;
+} */
 
 h2 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
